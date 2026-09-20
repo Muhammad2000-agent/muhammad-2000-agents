@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* Custom ChatGPT Markdown Styling */
+.chat-markdown {
+  color: inherit;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  word-break: break-word;
+}
+
+.chat-markdown h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #f8fafc;
+}
+
+.chat-markdown h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  color: #f1f5f9;
+}
+
+.chat-markdown h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.85rem;
+  margin-bottom: 0.35rem;
+  color: #e2e8f0;
+}
+
+.chat-markdown p {
+  margin-bottom: 0.75rem;
+}
+
+.chat-markdown ul {
+  list-style-type: disc;
+  padding-left: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.chat-markdown ol {
+  list-style-type: decimal;
+  padding-left: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.chat-markdown li {
+  margin-bottom: 0.3rem;
+}
+
+.chat-markdown blockquote {
+  border-left: 3px solid #6366f1;
+  padding-left: 0.85rem;
+  color: #94a3b8;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.chat-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.chat-markdown th,
+.chat-markdown td {
+  border: 1px solid #334155;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.chat-markdown th {
+  background-color: #1e293b;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.chat-markdown tr:nth-child(even) {
+  background-color: rgba(30, 41, 59, 0.4);
+}
+
+.chat-markdown hr {
+  border: 0;
+  border-top: 1px solid #334155;
+  margin: 1.25rem 0;
+}
+
+/* Light mode overrides for full-app compatibility */
+html.light {
+  color-scheme: light;
+}
+
+html.light body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+html.light .bg-slate-950,
+html.light .bg-\[\#030712\],
+html.light .bg-\[\#09090b\],
+html.light .bg-\[\#080d1a\],
+html.light .bg-\[\#0c0a09\] {
+  background-color: #f8fafc !important;
+}
+
+html.light .bg-slate-950\/90,
+html.light .bg-slate-950\/95 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.light .bg-slate-900 {
+  background-color: #ffffff !important;
+}
+
+html.light .bg-slate-900\/80,
+html.light .bg-slate-900\/90 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.light .bg-slate-900\/50,
+html.light .bg-slate-900\/60,
+html.light .bg-slate-900\/40 {
+  background-color: rgba(241, 245, 249, 0.9) !important;
+}
+
+html.light .border-slate-800 {
+  border-color: #e2e8f0 !important;
+}
+
+html.light .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+
+html.light .border-slate-600 {
+  border-color: #94a3b8 !important;
+}
+
+html.light .text-slate-100,
+html.light .text-slate-200 {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400 {
+  color: #64748b !important;
+}
+
+html.light .hover\:bg-slate-800:hover {
+  background-color: #f1f5f9 !important;
+}
+
+html.light .hover\:bg-slate-900:hover {
+  background-color: #f8fafc !important;
+}
+
+html.light .chat-markdown h1,
+html.light .chat-markdown h2,
+html.light .chat-markdown h3 {
+  color: #0f172a !important;
+}
+
+html.light .chat-markdown th {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+html.light .chat-markdown td,
+html.light .chat-markdown th {
+  border-color: #cbd5e1 !important;
+}
+
+html.light .chat-markdown tr:nth-child(even) {
+  background-color: rgba(241, 245, 249, 0.6) !important;
+}
+
+html.light .chat-markdown hr {
+  border-top-color: #e2e8f0 !important;
+}
+
+html.light .chat-markdown blockquote {
+  color: #475569 !important;
+}
+
