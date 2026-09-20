@@ -1,0 +1,7 @@
+{
+  "name": "Muhammad 2000 ai agents",
+  "description": "Muhammad 2000 AI Agents - Ultra-smart conversational AI and creative studio with realistic image generation, image editing, video generation, and video editing powered by 2,000 specialized AI agent intelligences.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
